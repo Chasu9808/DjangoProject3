@@ -87,8 +87,8 @@ class ImageClassificationView(APIView):
                     confidence = probabilities[predicted_class_index].item()
 
                     # 클래스 레이블 설정
-                    class_labels = {0: '공구톱', 1: '공업용가위', 2: '그라인더', 3: '니퍼', 4: '드라이버'
-                        , 5: '망치', 6: '스패너', 7: '전동드릴', 8: '줄자', 9: '버니어 캘리퍼스'}
+                    class_labels = {0: '톱', 1: '공업용가위', 2: '그라인더', 3: '니퍼', 4: '드라이버'
+                        , 5: '망치', 6: '스패너', 7: '전동드릴', 8: '줄자', 9: '버니어캘리퍼스'}
 
                     # 필요한 레이블로 대체
 
